@@ -12,8 +12,8 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  // Deploying to Netlify, not Cloudflare — override the default cloudflare-module preset.
+  // Deploying to Vercel, not Cloudflare — override the default cloudflare-module preset.
   nitro: {
-    preset: "netlify",
+    preset: "vercel",
   },
 });
